@@ -22,26 +22,28 @@ int addOne(int x){
 
 
 // Funciton Overloading
-void print(int x) {
-    cout << x<< endl;
-}
+// void print(int x) {
+//     cout << x<< endl;
+// }
 
-void print(string x) {
-    cout << x << endl;
-}
+// void print(string x) {
+//     cout << x << endl;
+// }
 
 
 
 
 int main() { 
-    // cout << 1 << endl;
-    // sayHello();
-    // cout << addOne(1) << endl;
-    
-    
-    print(1);
-    print("x");
-    
+
+    char v[5] = {'A', 'B', 'C', 'D', 'E'};
+    // cout << sizeof(v) << endl; // 5
+    char* p = &v[3];
+    char x = *p;
+
+    cout << v[3] << endl;
+
+
     return 0;
 }   
+
 
