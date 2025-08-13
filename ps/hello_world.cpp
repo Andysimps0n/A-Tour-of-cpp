@@ -7,11 +7,11 @@ int main(){
     int a, b;
     cin >> a;
     cin >> b;
-    
     cout << 2*b - a << "\n";
-    
-        
     return 0;
-        
-    
 }
+
+
+
+
+
